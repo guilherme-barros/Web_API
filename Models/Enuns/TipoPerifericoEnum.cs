@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Web_API.Models.Enuns
 {
-    public enum TipoPerifericosEnum
+    public enum TipoPerifericoEnum
     {
         Monitor,
         Teclado,

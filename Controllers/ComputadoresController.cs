@@ -25,7 +25,7 @@ namespace Web_API.Controller
         {
             try
             {
-                Computador c = await _context.TB_COMPUTADORES.FirstOrDefaultAsync(cBusca => cBusca.Id == id);
+                Computador c = await _context.TB_COMPUTADORES.FirstOrDefaultAsync(c => c.Id == id);
 
                 return Ok(c);
             }
@@ -35,7 +35,6 @@ namespace Web_API.Controller
             }
         }
 
-        
         [HttpGet("GetAll")]
         public async Task<IActionResult> Get()
         {

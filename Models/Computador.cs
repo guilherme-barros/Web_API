@@ -11,15 +11,12 @@ namespace Web_API.Models
     public class Computador
     {
         public int Id { get; set; }
-        public string Marca { get; set; } = string.Empty;
         public string Descricao { get; set; } = string.Empty;
-        public double Valor { get; set; }
         public int? UsuarioId { get; set; }
-
 
         [JsonIgnore]
         public Usuario? Usuario { get; set; }
-        public List<Periferico> Perifericos { get; set; } = [];
-        public List<Peca> Pecas { get; set; } = [];
+        public List<Periferico>? Perifericos { get; set; } = [];
+        public List<Peca>? Pecas { get; set; } = [];
     }
 }

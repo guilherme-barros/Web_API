@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using PersonalApi.Utils;
+using Web_API.Utils;
 using Web_API.Models;
 
 namespace Web_API.Controller

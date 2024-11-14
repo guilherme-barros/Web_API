@@ -15,7 +15,7 @@ namespace Web_API.Models
         public string Nome { get; set; } = string.Empty;
         public string Marca { get; set; } = string.Empty;
         public string Descricao { get; set; } = string.Empty;
-        public TipoPerifericosEnum TipoPeriferico { get; set; }
+        public TipoPerifericoEnum TipoPeriferico { get; set; }
         public double Preco { get; set; }
         public int? ComputadorId { get; set; }
 

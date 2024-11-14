@@ -7,7 +7,7 @@ using Microsoft.Identity.Client;
 using Microsoft.Net.Http.Headers;
 using Web_API.Models.Enuns;
 
-namespace PersonalApi.Utils
+namespace Web_API.Utils
 {
     public class Criptografia
     {
